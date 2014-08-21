@@ -1,6 +1,6 @@
 # Configuration
 
-Go to your config.yml file. You should see the following:
+Go to your `_config.yml` file. You should see the following:
 
     # Site settings
     title: Your awesome title

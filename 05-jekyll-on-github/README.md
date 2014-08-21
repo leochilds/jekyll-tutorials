@@ -9,4 +9,4 @@ These two values are referenced at different points in your site code. For examp
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-Where it is written `site.baseurl` the file is using the data in our config file. The url will need to be changed to the url of your site on github which follows the format githubusername.hithub.io and you need to change your baseurl to /githubrepo/ 
+Where it is written `site.baseurl` the file is using the data in our config file. The url will need to be changed to the url of your site on github which follows the format githubusername.hithub.io and you need to change your baseurl to /githubrepo 

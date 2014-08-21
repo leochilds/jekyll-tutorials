@@ -1,6 +1,6 @@
 # Creating Blog Posts
 
-Go to your site and open the posts directory. Open the file 2014-03-21-welcome-to-jekyll.markdown. The first 6 lines should read:
+Go to your site and open the `_posts` directory. Open the file `2014-03-21-welcome-to-jekyll.markdown`. The first 6 lines should read:
 
     ---
     layout: post
@@ -9,7 +9,7 @@ Go to your site and open the posts directory. Open the file 2014-03-21-welcome-t
     categories: jekyll update
     ---
     
-This is how Jekyll uses layouts to structure your website. Where the value of layout is post, the file uses the file post.html from the layouts folder. post.html looks like this:
+This is how Jekyll uses layouts to structure your website. Where the value of layout is post, the file uses the file `post.html` from the `_layouts` folder. `post.html` looks like this:
 
     ---
     layout: default
@@ -29,7 +29,7 @@ This is how Jekyll uses layouts to structure your website. Where the value of la
 
 You'll recognise some the the html tags and you'll also see that the post layout uses another layout called default. We will look at this more later. Also included in this layout are liquid html tags. For example on line 7, there is the tag `{{ page.title }}` which will use the value of title from your post markdown file. Very importantly there is the liquid tag `{{ content }}` which is where your content from your post file will be place. 
 
-By creating a new markdown file in the posts directory you can create a new post that will appear on the index page and on another page dedicated to the post. Try now, create a new file in the format of yyyy-mm-dd-my-first-blog-post.markdown and in that file put in the first 6 lines:
+By creating a new markdown file in the `_posts` directory you can create a new post that will appear on the index page and on another page dedicated to the post. Try now, create a new file in the format of `yyyy-mm-dd-my-first-blog-post.markdown` and in that file put in the first 6 lines:
 
     ---
     layout: post
